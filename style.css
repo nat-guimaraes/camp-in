@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Roboto:wght@100;300;400;500&display=swap');
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background);
+}
+
+form {
+  display: block;
+}
+
+.side-form {
+  margin: auto;
+  background-color: var(--form-background);
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.line-login {
+  font-weight: bolder;
+}
+.input-form {
+  border: 1px solid var(--primary-color);
+  width: 334px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.login {
+  color: var(--text-title);
+  margin-bottom: 10px;
+}
+
+.img-login {
+  width: 15px;
+  height: 15px;
+}
+.line-def {
+  color: var(--text-base);
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-def p {
+  color: var(--primary-color);
+}
+
+#img-logo {
+  position: absolute;
+  margin: 20px 10px;
+}
+
+.line-def2 {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.email-form {
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.email-form img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+
+.email-form input {
+  padding-left: 25px;
+  background-color: var(--form-background);
+}
+
+.send-button {
+  background-color: var(--primary-color);
+  color: #473404;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+  width: 334px;
+}
+.side-image img {
+  height: 100vh;
+  width: 50vw;
+  margin: 0;
+}
